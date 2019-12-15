@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bluetooth Connections"
-date:   2019-12-15 12:00:00 -0500
+date:   2019-12-13 12:00:00 -0500
 categories: Bluetooth
 ---
 
