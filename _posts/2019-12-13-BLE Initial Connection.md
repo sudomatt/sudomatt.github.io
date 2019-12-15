@@ -14,10 +14,10 @@ Out of Band (OOB) Pairing
 Generic Access Protocol (GAP) - How BLE devices discover each other, navigate a way to set up a secure communication
 channel
 
-GAP Peripheral:  Advertises, accepts connections.  (i.e. a fitbit)
+  GAP Peripheral:  Advertises, accepts connections.  (i.e. a fitbit)
 
-GAP Central: Scans for advertising packets, initiates connections (i.e. a smartphone)
+  GAP Central: Scans for advertising packets, initiates connections (i.e. a smartphone)
 
-GAP Broadcaster:  Advertises, does not accept connections (i.e. a beacon)
+  GAP Broadcaster:  Advertises, does not accept connections (i.e. a beacon)
 
-GAP Observer:  Scans for advertising packets, does not initiate connections (i.e. app looking for beacons)
+  GAP Observer:  Scans for advertising packets, does not initiate connections (i.e. app looking for beacons)
