@@ -7,8 +7,8 @@ categories: Bluetooth
 BLE Security:
 
 	Master	Slave
-GAP	Central	Peripheral
-GATT	Client	Server
+  GAP	Central	Peripheral
+  GATT	Client	Server
 	Initiator	Responder
 	Opens up	Advertiser
 
@@ -44,22 +44,41 @@ If secure connections can be used, it must be
 
 
 The Big List of BLE Acronyms:
+
 ATT – Attribute Protocol
+
 BLE – Bluetooth Low Energy
+
 CRC – Cyclic Redundancy Check
+
 (k)CSRK – Connection Signature Resolving Key – used in signing data sent over unencrypted link 	
+
 DHKey – Diffie Hellman Key
+
 GAP – Generic Access Profile
+
 GATT – Generic Attribute Profile
+
 HMAC – MAC function based upon a hash function
+
 (k)IRK – Identity Resolving Key – used in Bluetooth Privacy feature
+
 (k)LTK – Long Term Key – Used in link encryption
+
 MAC – Message Authentication Codes (Same as MIC)
+
 MIC – Message Integrity Codes (Same as MAC)
+
 MITM – Man in the Middle
+
 NIST – National Institute of Standards and Technology
+
 OOB – Out of Band – Used to exchange keys over non-BLE protocol
+
 PDU – Protocol Data Unit – Single nit of information transmitted
+
 SC – Secure Connections
+
 SMP – Security Manager Protocol
+
 (k)TK – Temporary key – Used in Legacy LE Pairing
