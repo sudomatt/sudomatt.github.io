@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "Bluetooth Security"
-date:   2019-12-18 12:00:00 -0500
+date:   2019-09-02 12:00:00 -0500
 categories: Bluetooth
 ---
 BLE Security:
 
-	Master	Slave
-  GAP	Central	Peripheral
+        Master  Slave
+  GAP	  Central	Peripheral
   GATT	Client	Server
-	Initiator	Responder
-	Opens up	Advertiser
+	      Initiator	Responder
+	      Opens up	Advertiser
 
 
 Bluetooth Low Energy Security can be a confusing, garbled mess even for the most astute of wireless developers.  As the saying goes, the “S” in “IOT” is for Security. In addition, none of the BLE security features are mandatory, meaning you could encounter any combination of the following features in the wild.  
@@ -43,7 +43,7 @@ Responder Key Distribution 		LTK, CSRK, and/or IRK
 If secure connections can be used, it must be
 
 
-The Big List of BLE Acronyms:
+<b><u>The Big List of BLE Acronyms:</u></b>
 
 ATT – Attribute Protocol
 
