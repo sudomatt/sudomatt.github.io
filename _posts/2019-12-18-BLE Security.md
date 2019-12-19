@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bluetooth Connections"
+title:  "Bluetooth Security"
 date:   2019-12-18 12:00:00 -0500
 categories: Bluetooth
 ---
