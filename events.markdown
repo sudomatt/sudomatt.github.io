@@ -3,7 +3,7 @@ layout: page
 title: Events
 permalink: /events/
 ---
-Punkin' Chunkin'
+<a href="http://https://www.punkinchunkin.com/">Punkin' Chunkin'</a>
 
 Red Bull Flugtag
 
