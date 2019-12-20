@@ -11,10 +11,7 @@ BLE Security:
   GATT	Client	Server
 	      Initiator	Responder
 	      Opens up	Advertiser
-
-        <h2>Basic HTML Table</h2>
-
-        <table style="width:100%">
+<table style="width:100%">
           <tr>
             <th>Firstname</th>
             <th>Lastname</th>
