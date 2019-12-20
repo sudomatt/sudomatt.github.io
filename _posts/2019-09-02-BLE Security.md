@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Bluetooth Security"
+title:  "BLE Security for the tech illiterate"
 date:   2019-09-02 12:00:00 -0500
 categories: Bluetooth
 ---
+<img align="left" src="/images/security.jpg">
+
+
 For the vast majority of cases, BLE security flaws come from poor implementation of BLE security practices, NOT from weaknesses in the BLE protocol itself.  It's not about making something that is flawlessly secure, that is a pipe dream.  The goal is to make something too secure to be worth breaching, a level which LE Secure Connections Mode meets.
 <table style="width:100%">
           <tr>
