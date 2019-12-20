@@ -30,4 +30,5 @@ Characteristics:  Mid level, individual items of state data.  Have a name, a val
 Descriptors:  Low level, text description for characteristics regarding content and interaction
 [jekyll-docs]: https://mattguenette.com
 
+mawp 
 [Security is covered in a later post]({{site.baseurl}}{%post})
