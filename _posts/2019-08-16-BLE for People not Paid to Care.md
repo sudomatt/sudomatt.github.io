@@ -28,6 +28,6 @@ Services:  Top level, describes what the BLE device does; their primary feature 
 Characteristics:  Mid level, individual items of state data.  Have a name, a value, and support one or more operations (read/write)
 
 Descriptors:  Low level, text description for characteristics regarding content and interaction
+[jekyll-docs]: https://mattguenette.com
 
-
-<a href=https://mattguenette.com/bluetooth/2019/09/02/BLE-Security.html>Security is covered in a later post.</a>
+[Security is covered in a later post]({{site.baseurl}}{%post})
