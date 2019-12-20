@@ -1,25 +1,23 @@
 ---
 layout: post
-title:  "Bluetooth Initial Connections"
+title:  "Bluetooth for People Not Paid to Care"
 date:   2019-08-16 12:00:00 -0500
 categories: Bluetooth
 ---
 
-Bluetooth Low Energy (BLE) devices can securely connect to each other in one of three different ways:
+Bluetooth Low Energy (BLE) is a low power wireless protocol designed as a cable alternative.  It was designed
+for ease of use and implementation of developers, so as a result can be a bit of a mess.
 
-PIN
-Numeric Comparison
-Out of Band (OOB) Pairing
+Bare Minimum:
 
 <b>GAP:  Generic Access Profile</b> - How BLE devices discover each other, navigate a way to set up a secure communication channel
 
-GAP Peripheral:  Advertises, accepts connections.  (i.e. a fitbit)
+  GAP Peripheral:  Advertises, accepts connections.  (i.e. a fitbit)
 
-GAP Central: Scans for advertising packets, initiates connections (i.e. a smartphone)
+  GAP Central: Scans for advertising packets, initiates connections (i.e. a smartphone)
 
-GAP Broadcaster:  Advertises, does not accept connections (i.e. a beacon)
-
-GAP Observer:  Scans for advertising packets, does not initiate connections (i.e. app looking for beacons)
+There's also GAP Broadcasters, which advertise but do not accept connections (i.e. a beacon), as well
+as GAP Observers, which scan for advertising packets, but do not initiate connections (i.e. app looking for beacons)
 
 
 <b>GATT:  Generic Attribute Table</b> - The framework for describing capabilities and descriptors of a BLE device.  Made up of Services, Characteristics, and descriptors
