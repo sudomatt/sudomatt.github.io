@@ -14,7 +14,7 @@ Bluetooth Low Energy Security can be a confusing, garbled mess even for the most
 
 In order to start a connection between two BLE devices, they must undergo a process called Pairing.  This involves sharing things like keys in order to allow security capabilities such as encryption to be used.  Paired devices can store this information for further use, making them bonded.
 
-This process begins with a Pairing Feature Exchange:
+  This process begins with a Pairing Feature Exchange:
 
 		Initiator:  Sends SMP Pairing Request PDU to Responder
 
@@ -24,7 +24,7 @@ This process begins with a Pairing Feature Exchange:
 
 		-LE Legacy or LE Secure Connections?
 
-		-Device Authentication during pairing?  	what kind?
+		-Device Authentication during pairing? What kind?
 
 		-Which key types should be distributed and generated?
 
