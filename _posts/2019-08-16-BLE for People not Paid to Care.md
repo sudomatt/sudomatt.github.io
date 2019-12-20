@@ -26,6 +26,9 @@ as GAP Observers, which scan for advertising packets, but do not initiate connec
 Services:  Top level, describes what the BLE device does; their primary feature (i.e. heart rate monitor)  Contain one or more characteristics.  BLE SIG has a long list of predefined services to use in design.
 
 Characteristics:  Mid level, individual items of state data.  Have a name, a value, and support one or more operations (read/write)
-TEST
+
 Descriptors:  Low level, text description for characteristics regarding content and interaction
+
 [jekyll-docs]: https://mattguenette.com
+
+<a href="http://https://www.punkinchunkin.com/">Security is covered on a later post</a>
