@@ -29,6 +29,5 @@ Characteristics:  Mid level, individual items of state data.  Have a name, a val
 
 Descriptors:  Low level, text description for characteristics regarding content and interaction
 
-[jekyll-docs]: https://mattguenette.com
 
 <a href="http://https://www.punkinchunkin.com/">Security is covered on a later post</a>
