@@ -30,4 +30,4 @@ Characteristics:  Mid level, individual items of state data.  Have a name, a val
 Descriptors:  Low level, text description for characteristics regarding content and interaction
 
 
-<a href="https://mattguenette.com/bluetooth/2019/09/02/BLE-Security.html">Security is covered on a later post</a>
+<a href="https://mattguenette.com/bluetooth/2019/09/02/BLE-Security.html"> Security is covered on a later post </a>
