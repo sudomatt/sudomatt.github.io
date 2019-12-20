@@ -76,7 +76,7 @@ BLE – Bluetooth Low Energy
 
 CRC – Cyclic Redundancy Check
 
-(k)CSRK – Connection Signature Resolving Key – used in signing data sent over unencrypted link 	
+CSRK – Connection Signature Resolving Key – used in signing data sent over unencrypted link 	
 
 DHKey – Diffie Hellman Key
 
@@ -86,9 +86,9 @@ GATT – Generic Attribute Profile
 
 HMAC – MAC function based upon a hash function
 
-(k)IRK – Identity Resolving Key – used in Bluetooth Privacy feature
+IRK – Identity Resolving Key – used in Bluetooth Privacy feature
 
-(k)LTK – Long Term Key – Used in link encryption
+LTK – Long Term Key – Used in link encryption
 
 MAC – Message Authentication Codes (Same as MIC)
 
@@ -106,4 +106,4 @@ SC – Secure Connections
 
 SMP – Security Manager Protocol
 
-(k)TK – Temporary key – Used in Legacy LE Pairing
+TK – Temporary key – Used in Legacy LE Pairing
