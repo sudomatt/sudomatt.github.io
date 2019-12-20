@@ -5,8 +5,8 @@ date:   2019-09-02 12:00:00 -0500
 categories: Bluetooth
 ---
 BLE Security:
-
-        Master  Slave
+  aster
+  Slave
   GAP	  Central	Peripheral
   GATT	Client	Server
 	      Initiator	Responder
