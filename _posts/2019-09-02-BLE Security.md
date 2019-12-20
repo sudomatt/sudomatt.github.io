@@ -8,6 +8,28 @@ categories: Bluetooth
 
 
 For the vast majority of cases, BLE security flaws come from poor implementation of BLE security practices, NOT from weaknesses in the BLE protocol itself.  It's not about making something that is flawlessly secure, that is a pipe dream.  The goal is to make something too secure to be worth breaching, a level which LE Secure Connections Mode meets.
+
+
+Bluetooth Low Energy Security can be a confusing, garbled mess even for the most astute of wireless developers.  As the saying goes, the “S” in “IOT” is for Security. In addition, none of the BLE security features are mandatory, meaning you could encounter any combination of the following features in the wild.  
+
+In order to start a connection between two BLE devices, they must undergo a process called Pairing.  This involves sharing things like keys in order to allow security capabilities such as encryption to be used.  Paired devices can store this information for further use, making them bonded.
+
+This process begins with a Pairing Feature Exchange:
+
+		Initiator:  Sends SMP Pairing Request PDU to Responder
+
+		Responder: Replies with SMP Pairing Response PDU
+
+	This Tells each device:
+
+		-LE Legacy or LE Secure Connections?
+
+		-Device Authentication during pairing?  	what kind?
+
+		-Which key types should be distributed and generated?
+
+		-What key length should the LTK be?
+
 <table style="width:100%">
           <tr>
             <th>BLE</th>
@@ -38,17 +60,6 @@ For the vast majority of cases, BLE security flaws come from poor implementation
 
 
 
-Bluetooth Low Energy Security can be a confusing, garbled mess even for the most astute of wireless developers.  As the saying goes, the “S” in “IOT” is for Security. In addition, none of the BLE security features are mandatory, meaning you could encounter any combination of the following features in the wild.  
-
-In order to start a connection between two BLE devices, they must undergo a process called Pairing.  This involves sharing things like keys in order to allow security capabilities such as encryption to be used.  Paired devices can store this information for further use, making them bonded.
-This process begins with a Pairing Feature Exchange:
-		Initiator:  Sends SMP Pairing Request PDU to Responder
-		Responder: Replies with SMP Pairing Response PDU
-	This Tells each device:
-		-LE Legacy or LE Secure Connections?
-		-Device Authentication during pairing?  	what kind?
-		-Which key types should be distributed and generated?
-		-What key length should the LTK be?
 
 
 
