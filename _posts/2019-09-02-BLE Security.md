@@ -12,6 +12,32 @@ BLE Security:
 	      Initiator	Responder
 	      Opens up	Advertiser
 
+        <h2>Basic HTML Table</h2>
+
+        <table style="width:100%">
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+          </tr>
+        </table>
+
+
 
 Bluetooth Low Energy Security can be a confusing, garbled mess even for the most astute of wireless developers.  As the saying goes, the “S” in “IOT” is for Security. In addition, none of the BLE security features are mandatory, meaning you could encounter any combination of the following features in the wild.  
 
