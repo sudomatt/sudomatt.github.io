@@ -4,7 +4,7 @@ title:  "Bluetooth for People Not Paid to Care"
 date:   2019-08-16 12:00:00 -0500
 categories: Bluetooth
 ---
-![Bluetooth](/images/sig.jpg)
+![Bluetooth](/images/blelogo.jpg)
 
 Bluetooth Low Energy (BLE) is a low power wireless protocol designed as a cable alternative.  It was designed
 for ease of use and implementation of developers, so as a result can be a bit of a mess.
