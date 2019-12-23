@@ -49,6 +49,9 @@ The commands to turn the motor pins off and on are controlled via a COM port, se
 
 <i>fig 1</i>
 
+<img align="left" src="/images/mrburns.jpg">
+
+
 An H bridge controls the direction a motor is turning.  If a positive voltage is applied to the + end of the motor, and ground
 is connected to the - end, the motor will turn forward.  If those voltages are reversed, the motor will turn backwards.
 
