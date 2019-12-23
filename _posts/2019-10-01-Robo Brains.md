@@ -36,7 +36,7 @@ the world of robotics.  It consists of three basic subsystems :
 
 A Microcontroller is the brains of the operation.  It effectively is a means to control electronic switches called pins.  These pins can be set in either High (1), or Low (0) based on commands received.  For example, with the right command, the pin controlling the motor will switch from low to high and the motor will begin running.
 
-When the pin controlling the motor is held at high, the motor will run full speed.  When the motor pin is held at low, it will stop.  What if we want something inbetween full speed and immobile?  Motor speed is controlled with something called Pulse Width Modulation (PWM).  This is effectively flipping the pin from high to low very quickly.  By going on off on off on off, with an equal time with the pin held in each level, the motor will run at about half speed.  By contolling the ratio of high to low, we can get very fine grained control of speed.  In our device, the ESP32 is a nifty little system-on-a-chip (SOC) that acts as both the microcontroller and BLE radio.
+When the pin controlling the motor is held at high, the motor will run full speed.  When the motor pin is held at low, it will stop.  What if we want something inbetween full speed and immobile?  Motor speed is controlled with something called Pulse Width Modulation (PWM).  This is effectively flipping the pin from high to low very quickly.  By going on off on off on off, with an equal time with the pin held in each level, the motor will run at about half speed.  By controlling the ratio of high to low, we can get very fine grained control of speed.  In our device, the ESP32 is a nifty little system-on-a-chip (SOC) that acts as both the microcontroller and BLE radio.
 
 <b>Radio</b>
 
@@ -53,10 +53,10 @@ is connected to the - end, the motor will turn forward.  If those voltages are r
 
 Transistors (labeled NPN and PNP) are effectively electronically controlled light switches.  When Q1 and Q4 are connected, and Q2 and Q3 are disconnected, voltage flows from the + end of the motor to the - end running it in forward mode.  When Q2 and Q3 are connected, and Q1 and Q4 are disconnected, this runs the motor in reverse mode because voltage is flowing from the - end of the motor to the + end.  This means to control a motor we just need to 4 pins to control Q1 Q2 Q3 and Q4.
 
-The leechbot board comes preloaded with an Arduino Bootloader, preprogrammed, and ready for controlling the weird bot of your dreams slash nightmares.  For $40, you too can hook up to a furby and have your own little demon running around in $20 minutes.
+The leechbot board comes preloaded with an Arduino Bootloader, preprogrammed, and ready for controlling the weird bot of your dreams slash nightmares.  For $40, you too can hook up to a Furby and have your own little demon running around in $20 minutes.
 
 <b><u>Installation</u></b>
-1.  Plug the provided lithium ion battery into the board at the terminal labled BAT.
+1.  Plug the provided lithium ion battery into the board at the terminal labeled BAT.
 
 2.  Turn on the bluefruit app and look for the device labeled leechbot followed by some number.  Click connect.
 
