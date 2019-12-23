@@ -31,6 +31,11 @@ The leechbot is a simple, low-cost BLE based motor controller meant to be integr
 with a 9-12V motor based childrens toys. It was designed to lower the barrier to entry into
 the world of robotics.  It consists of three basic subsystems :
 
+
+<b>Microcontroller</b>
+
+A Microcontroller is the brains of the operation.  It effectively is a means to control electronic switches called pins.  These pins can be set in either High (1), or Low (0) based on commands received.  For example, with the right command, the pin controlling the motor will switch from low to high and the motor will begin running. 
+
 <b>H-Bridge</b>
 <img align="center" src="/images/hbridge.jpg">
 <i>fig 1</i>
@@ -38,11 +43,9 @@ the world of robotics.  It consists of three basic subsystems :
 An H bridge controls the direction a motor is turning.  If a positive voltage is applied to the + end of the motor, and ground
 is connected to the - end, the motor will turn forward.  If those voltages are reversed, the motor will turn backwards.
 
-Transistors (labeled NPN and PNP) are effectively electronically controlled light switches.  When Q1  
+Transistors (labeled NPN and PNP) are effectively electronically controlled light switches.  When Q1 and Q4 are connected, and Q2 and Q3 are disconnected, voltage flows from the + end of the motor to the - end running it in forward mode.  When Q2 and Q3 are connected, and Q1 and Q4 are disconnected, this runs the motor in reverse mode because voltage is flowing from the - end of the motor to the + end.  This means to control a motor we just need to 4 pins to control Q1 Q2 Q3 and Q4.
 
 
-radio
-microcontroller
 h-bridge
 
 
