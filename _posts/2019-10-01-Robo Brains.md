@@ -52,6 +52,14 @@ is connected to the - end, the motor will turn forward.  If those voltages are r
 
 Transistors (labeled NPN and PNP) are effectively electronically controlled light switches.  When Q1 and Q4 are connected, and Q2 and Q3 are disconnected, voltage flows from the + end of the motor to the - end running it in forward mode.  When Q2 and Q3 are connected, and Q1 and Q4 are disconnected, this runs the motor in reverse mode because voltage is flowing from the - end of the motor to the + end.  This means to control a motor we just need to 4 pins to control Q1 Q2 Q3 and Q4.
 
+
+<b><u>Installation</u></b>
+1.  Find the two wires connected to the motor of your RC car or other device.  There should be two wires, 1 red for VCC, and 1 black for GND.
+
+2.  Snip those two wires as far from the motors as possible.  Strip the last quarter inch of those wires.
+
+3.  Attach 
+
 <u>BOM</u>
 
 ESP32
@@ -61,4 +69,4 @@ H-Bridge
 PCB
 
 
-The leechbot board comes preloaded with an Arduino Bootloader, preprogrammed, and ready for controlling the weird bot of your dreams slash nightmares.  
+The leechbot board comes preloaded with an Arduino Bootloader, preprogrammed, and ready for controlling the weird bot of your dreams slash nightmares.  For $40, you too can hook up to a furby and have your own little demon running around in $20 minutes.
