@@ -17,10 +17,10 @@ Fighting bar robots built by underserved groups are coolest.
 
 Problem:  The literal cost of admission is prohibitively highlight
 
-Solution:  Open Source symbyotic board + goodwill toys!
+Solution:  Open Source symbiotic board + goodwill toys!
 
 Electronics design can be a daunting task even for professionals.  Every kid who watched
-battlebots or robot wars as a kid will feel the pull to build their own mechanical monster
+BattleBots or robot wars as a kid will feel the pull to build their own mechanical monster
 capable of destroying everything in its path.  They approach with excitement and curiosity and the passion
 only a child possesses.  Dipping a toe in the water can lead to being intimidated at a library worth
 of engineering textbooks that seem necessary to even get 'hello world' and 'blink' working.  The solution,
@@ -52,13 +52,13 @@ is connected to the - end, the motor will turn forward.  If those voltages are r
 
 Transistors (labeled NPN and PNP) are effectively electronically controlled light switches.  When Q1 and Q4 are connected, and Q2 and Q3 are disconnected, voltage flows from the + end of the motor to the - end running it in forward mode.  When Q2 and Q3 are connected, and Q1 and Q4 are disconnected, this runs the motor in reverse mode because voltage is flowing from the - end of the motor to the + end.  This means to control a motor we just need to 4 pins to control Q1 Q2 Q3 and Q4.
 
-
-h-bridge
-
-
-
 <u>BOM</u>
 
 ESP32
 
 H-Bridge
+
+PCB
+
+
+The leechbot board comes preloaded with an Arduino Bootloader, preprogrammed, and ready for controlling the weird bot of your dreams slash nightmares.  
