@@ -3,7 +3,7 @@ layout: page
 title: Events
 permalink: /events/
 ---
-Cool engineering and artsy things happening around town:
+<u>Cool engineering and artsy things happening around town:</u>
 
 <a href="http://https://www.punkinchunkin.com/">Punkin' Chunkin'</a>
 
@@ -17,7 +17,8 @@ Cool engineering and artsy things happening around town:
 
 <a href="https://www.chicago.gov/city/en/depts/dca/supp_info/chicago_s_publicartgallery37.html">Gallery 37</a>
 
-Excellent suppliers for bits and bobs:
+
+<u>Excellent suppliers for bits and bobs:</u>
 
 Maker stuff, Dev boards, easy to use electronic parts with excellent tutorials:
 
