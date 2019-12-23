@@ -32,8 +32,8 @@ with a 9-12V motor based childrens toys. It was designed to lower the barrier to
 the world of robotics.  It consists of three basic subsystems :
 
 <b><i>H-Bridge</i></b>
-<img align="left" src="/images/Hbridge.jpg">
-<i>fig 1>
+<img align="center" src="/images/hbridge.jpg">
+<i>fig 1</i>
 
 An H bridge controls the direction a motor is turning.  If a positive voltage is applied to the + end of the motor, and ground
 is connected to the - end, the motor will turn forward.  If those voltages are reversed, the motor will turn backwards.
