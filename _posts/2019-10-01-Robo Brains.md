@@ -44,6 +44,7 @@ The commands to turn the motor pins off and on are controlled via a COM port, se
 
 
 <b>H-Bridge</b>
+
 <img align="left" src="/images/hbridge2.jpg">
 <i>fig 1</i>
 
