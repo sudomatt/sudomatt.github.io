@@ -36,7 +36,7 @@ the world of robotics.  It consists of three basic subsystems :
 
 A Microcontroller is the brains of the operation.  It effectively is a means to control electronic switches called pins.  These pins can be set in either High (1), or Low (0) based on commands received.  For example, with the right command, the pin controlling the motor will switch from low to high and the motor will begin running.
 
-When the pin controlling the motor is held at high, the motor will run full speed.  When the motor pin is held at low, it will stop.  What if we want something inbetween full speed and immobile?  Motor speed is controlled with something called Pulse Width Modulation (PWM).  This is effectively flipping the pin from high to low very quickly.  By going on off on off on off, with an equal time with the pin held in each level, the motor will run at about half speed.  By contolling the ratio of high to low, we can get very fine grained control of speed.
+When the pin controlling the motor is held at high, the motor will run full speed.  When the motor pin is held at low, it will stop.  What if we want something inbetween full speed and immobile?  Motor speed is controlled with something called Pulse Width Modulation (PWM).  This is effectively flipping the pin from high to low very quickly.  By going on off on off on off, with an equal time with the pin held in each level, the motor will run at about half speed.  By contolling the ratio of high to low, we can get very fine grained control of speed.  In our device, the ESP32 is a nifty little system-on-a-chip (SOC) that acts as both the microcontroller and BLE radio.
 
 <b>Radio</b>
 
