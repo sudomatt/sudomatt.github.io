@@ -45,11 +45,10 @@ The commands to turn the motor pins off and on are controlled via a COM port, se
 
 <b>H-Bridge</b>
 
-<img align="left" src="/images/hbridge2.jpg">
+<img align="left" src="/images/motorcontrol.jpg">
 
 <i>fig 1</i>
 
-<img align="left" src="/images/mrburns.jpg">
 
 
 An H bridge controls the direction a motor is turning.  If a positive voltage is applied to the + end of the motor, and ground
