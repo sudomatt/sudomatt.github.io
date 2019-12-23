@@ -2,8 +2,9 @@
 layout: post
 title:  "Robotic Brains"
 date:   2019-10-01 12:00:00 -0500
-categories: Robotics
+categories: Robots
 ---
+<img align="left" src="/images/mrburns.jpg">
 
 Dammit Smithers this isn't Rocket Science it's Brain Surgery!
 
